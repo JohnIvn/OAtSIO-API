@@ -14,6 +14,12 @@ This project connects an **offline Arduino UNO R3** with an **RC522 RFID/NFC rea
 
 ---
 
+## Table of Contents
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Testing](#testing)
+- [License](#license)
+
 ## Requirements
 
 To run this project locally, make sure the following are installed:
