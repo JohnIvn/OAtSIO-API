@@ -28,6 +28,10 @@ To run this project locally, ensure you have the following installed:
    SERIAL_PORT= (What serial port is your Arduino Connected)
    SOCKET_IO_URL= (What is the socket io server your sending the data to)
 
+   ex:
+   SERIAL_PORT=COM10
+   SOCKET_IO_URL=http://localhost:3000
+
 4. Run the hardware:
    The hardware and .ino used are compatible for Arduino UNO R3
 
