@@ -44,6 +44,17 @@ To run this project locally, ensure you have the following installed:
    OR
    yarn server
 
+   | MFRC522 Pin | Arduino Uno Pin |
+   | ----------- | --------------- |
+   | SDA         | 10              |
+   | SCK         | 13              |
+   | MOSI        | 11              |
+   | MISO        | 12              |
+   | IRQ         | not connected   |
+   | GND         | GND             |
+   | RST         | 9               |
+   | 3.3V        | 3.3V (not 5V!)  |
+
 6. Testing:
    You can go to your Socket IO server and test if this sends.
 
