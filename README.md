@@ -15,8 +15,12 @@ This project connects an **offline Arduino UNO R3** with an **RC522 RFID/NFC rea
 ---
 
 ## Table of Contents
+
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Wiring Diagram](#wiringdiagram)
+- [Features](#features)
+- [Technologies Used](#technologiesused)
 - [Testing](#testing)
 - [License](#license)
 
@@ -78,15 +82,15 @@ yarn server
 
 ## Wiring Diagram
 
-| MFRC522 Pin | Arduino Uno Pin |
-|-------------|------------------|
-| SDA         | 10               |
-| SCK         | 13               |
-| MOSI        | 11               |
-| MISO        | 12               |
-| IRQ         | Not connected    |
-| GND         | GND              |
-| RST         | 9                |
+| MFRC522 Pin | Arduino Uno Pin    |
+| ----------- | ------------------ |
+| SDA         | 10                 |
+| SCK         | 13                 |
+| MOSI        | 11                 |
+| MISO        | 12                 |
+| IRQ         | Not connected      |
+| GND         | GND                |
+| RST         | 9                  |
 | 3.3V        | 3.3V (**not 5V!**) |
 
 ---
@@ -101,11 +105,11 @@ yarn server
 
 ## Technologies Used
 
-| Category  | Tools           |
-|-----------|-----------------|
-| Hardware  | Arduino UNO R3  |
-| Sensor    | RC522           |
-| Backend   | Node.js, SerialPort, Socket.IO |
+| Category | Tools                          |
+| -------- | ------------------------------ |
+| Hardware | Arduino UNO R3                 |
+| Sensor   | RC522                          |
+| Backend  | Node.js, SerialPort, Socket.IO |
 
 ---
 
