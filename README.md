@@ -17,7 +17,9 @@ This project connects an **offline Arduino UNO R3** with an **RC522 RFID/NFC rea
 ## Table of Contents
 
 - [Requirements](#requirements)
+- [Release](#release)
 - [Installation](#installation)
+- [Structure](#structure)
 - [Wiring Diagram](#wiringdiagram)
 - [Features](#features)
 - [Technologies Used](#technologiesused)
@@ -31,6 +33,12 @@ To run this project locally, make sure the following are installed:
 - [Node.js](https://nodejs.org/) (v14 or higher)
 - `npm` or `yarn`
 - RFID/NFC Reader (RC522)
+
+---
+
+## Release
+
+- Alternatively you can download the `.zip` file from the [Releases](https://github.com/JohnIvn/OAtSIO-API/releases) section.
 
 ---
 
@@ -100,6 +108,13 @@ yarn server
 - Send RC522 tag data from Arduino to Socket.IO server
 - No need for ESP32 or NodeMCU
 - Easy setup using environment variables
+
+## Structure
+
+```bash
+/   
+└── Hardware/            
+```
 
 ---
 
